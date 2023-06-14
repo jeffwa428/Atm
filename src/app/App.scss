@@ -1,0 +1,12 @@
+$HEADER_PADDING_TOP: 100px;
+$APP_BG_COLOR: #9F80AC;
+
+.atm-app {
+  width: 100%;
+  height: 100vh;
+  background: $APP_BG_COLOR;
+  display: flex;
+  justify-content: center;
+  padding-top: $HEADER_PADDING_TOP;
+  box-sizing: border-box;
+}

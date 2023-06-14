@@ -1,0 +1,76 @@
+.card {
+  background-image: url('../../../assets/creditcard_sprite.png');
+  transform: scale(1.2);
+}
+
+.card-1-active {
+  width: 28px;
+  height: 21px;
+  background-position: 0 0;
+}
+
+.card-1-inactive {
+  width: 28px;
+  height: 21px;
+  background-position: 0 21px;
+}
+
+.card-2-active {
+  width: 42px;
+  height: 21px;
+  background-position: -38px 0;
+}
+
+.card-2-inactive {
+  width: 42px;
+  height: 21px;
+  background-position: -38px 21px;
+}
+
+.card-3-active {
+  width: 28px;
+  height: 21px;
+  background-position: -94px 0;
+}
+
+.card-3-inactive {
+  width: 28px;
+  height: 21px;
+  background-position: -94px 21px;
+}
+
+.card-4-active {
+  width: 28px;
+  height: 21px;
+  background-position: -132px 0;
+}
+
+.card-4-inactive {
+  width: 28px;
+  height: 21px;
+  background-position: -132px 21px;
+}
+
+.card-5-active {
+  width: 30px;
+  height: 21px;
+  background-position: -170px 0;
+}
+
+.card-5-inactive {
+  width: 30px;
+  height: 21px;
+  background-position: -170px 21px;
+}
+
+.card-6-active {
+  width: 25px;
+  height: 21px;
+  background-position: -212px 0;
+}
+
+.card-6-inactive {
+  width: 25px;
+  height: 21px;
+  background-position: -212px 21px;
+}

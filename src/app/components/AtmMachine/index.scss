@@ -1,0 +1,83 @@
+.atm-machine {
+  &-wrapper {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-header {
+    height: 160px;
+    background: #126CAE;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .graf-img {
+      position: absolute;
+      top: 40px;
+      right: 90px;
+      height: 60px;
+    }
+
+    .sign-img {
+      height: 100px;
+    }
+  }
+
+  &-body {
+    flex: 1;
+    padding: 0 20px;
+
+    .divider {
+      height: 8px;
+      background: #BEBEBE;
+    }
+
+    .content-wrapper {
+      background: #F1F0E7;
+      height: calc(100% - 8px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sticker-graf-img {
+      position: absolute;
+      top: calc(100% - 30px);
+      left: 50px;
+    }
+
+    .board-wrapper {
+      display: flex;
+      align-items: end;
+      padding: 0 16px;
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+
+      .action-items {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 12px;
+        padding-bottom: 30px;
+      }
+
+      .display-panel {
+        background: #7EB4D5;
+        border: 8px solid #E1E1D6;
+        flex: 1;
+        height: 300px;
+        position: relative;
+
+        img {
+          position: absolute;
+          top: calc(100% + 16px);
+          right: 0;
+          height: 8px;
+        }
+      }
+    }
+  }
+}
