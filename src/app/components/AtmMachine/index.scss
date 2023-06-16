@@ -51,7 +51,7 @@
 
     .board-wrapper {
       display: flex;
-      align-items: end;
+      align-items: flex-end;
       padding: 0 16px;
       position: relative;
       box-sizing: border-box;
@@ -70,12 +70,33 @@
         flex: 1;
         height: 300px;
         position: relative;
+        text-align: center;
 
         img {
           position: absolute;
           top: calc(100% + 16px);
           right: 0;
           height: 8px;
+        }
+
+        .panel-pin-input,
+        .panel-info {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 28px;
+          width: 100px;
+          text-align: center;
+          color: white;
+          background: none;
+          border: none;
+          outline: none;
+        }
+
+        .panel-info {
+          font-size: 24px;
+          width: 100%;
         }
       }
     }
